@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Rectangle", "type": "Rect" },
+  { "id": 2, "name": "Circle", "type": "Circle" },
+  { "id": 3, "name": "Ellipse", "type": "Ellipse" },
+  { "id": 4, "name": "Line", "type": "Line" },
+  { "id": 5, "name": "Polygon", "type": "RegularPolygon" },
+  { "id": 6, "name": "Star", "type": "Star" }
+]
+ 
