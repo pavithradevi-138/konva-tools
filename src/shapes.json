@@ -1,9 +1,54 @@
-[
-  { "id": 1, "name": "Rectangle", "type": "Rect" },
-  { "id": 2, "name": "Circle", "type": "Circle" },
-  { "id": 3, "name": "Ellipse", "type": "Ellipse" },
-  { "id": 4, "name": "Line", "type": "Line" },
-  { "id": 5, "name": "Polygon", "type": "RegularPolygon" },
-  { "id": 6, "name": "Star", "type": "Star" }
-]
+
+  [  {
+      "id": 1,
+      "name": "Circle", 
+      "type": "Circle",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "radius": 30,
+        "fill": "#00D2FF",
+        "stroke": "#000",
+        "strokeWidth": 2,
+        "draggable": true,
+        "opacity": 0.8,
+        "rotation": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rectangle",
+      "type": "Rect",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "width": 60,
+        "height": 40,
+        "fill": "green",
+        "stroke": "black",
+        "strokeWidth": 4,
+        "cornerRadius": 10,
+        "draggable": true,
+        "rotation": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Star",
+      "type": "Star",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "numPoints": 5,
+        "innerRadius": 15,
+        "outerRadius": 30,
+        "fill": "red",
+        "stroke": "black",
+        "strokeWidth": 2,
+        "draggable": true,
+        "rotation": 0
+      }
+    }
+  ]
+
  

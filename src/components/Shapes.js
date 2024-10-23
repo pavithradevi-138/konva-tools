@@ -62,7 +62,7 @@ const Shapes = ({
 
     switch (shape.type) {
       case 'Rect':
-        return <Rect {...shapeProps} width={100} height={50} fill="blue" stroke="black" />;
+        return <Rect {...shapeProps} width={100} height={80} fill="blue" stroke="black" />;
       case 'Circle':
         return <Circle {...shapeProps} radius={30} fill="green" stroke="black" />;
       case 'Ellipse':
