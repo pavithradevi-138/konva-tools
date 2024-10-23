@@ -1,5 +1,5 @@
 // Shapes.js
-import React, {useState, useRef} from 'react';
+import React, {useRef} from 'react';
 import { Stage, Layer, Rect, Circle, Ellipse, Line, RegularPolygon, Star, Transformer } from 'react-konva';
 
 const Shapes = ({
@@ -17,7 +17,7 @@ const Shapes = ({
   const shapeRefs = useRef({}); // Create a ref to store shapes
 
   const renderShape = (shape) => {
-    const isSelected = shape.id === selectedShapeId;
+    // const isSelected = shape.id === selectedShapeId;
     const shapeProps = {
       key: shape.id,
       x: shape.x,

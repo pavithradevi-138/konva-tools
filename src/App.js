@@ -1,6 +1,6 @@
 import React from 'react'
 import Canvas from './Canvas'
-import SelectTransform from './components/SelectTransform'
+// import SelectTransform from './components/SelectTransform'
 
 const App = () => {
   return (
